@@ -74,15 +74,15 @@
 
 <div style="margin: 25px 0;">
 <h4 style="color: #ffd700; margin-bottom: 15px;">✨ 강의에서 배우는 핵심 내용</h4>
-<ul style="color: #f8f9fa; text-align: left; display: inline-block;">
-<li>🔧 Electron.js 환경 설정 및 기본 구조 이해</li>
-<li>⚛️ React와 Electron 연동 방법</li>
-<li>🎨 Tailwind CSS를 활용한 모던 UI 디자인</li>
-<li>📦 Zustand를 이용한 효율적인 상태 관리</li>
-<li>⏰ 실시간 타이머 및 스톱워치 기능 구현</li>
-<li>🔊 오디오 재생 및 알림 시스템 개발</li>
-<li>📱 크로스 플랫폼 데스크톱 앱 빌드 및 배포</li>
-</ul>
+<div style="color: #f8f9fa; text-align: left; display: inline-block;">
+<p>🔧 Electron.js 환경 설정 및 기본 구조 이해</p>
+<p>⚛️ React와 Electron 연동 방법</p>
+<p>🎨 Tailwind CSS를 활용한 모던 UI 디자인</p>
+<p>📦 Zustand를 이용한 효율적인 상태 관리</p>
+<p>⏰ 실시간 타이머 및 스톱워치 기능 구현</p>
+<p>🔊 오디오 재생 및 알림 시스템 개발</p>
+<p>📱 크로스 플랫폼 데스크톱 앱 빌드 및 배포</p>
+</div>
 </div>
 
 <a href="https://inf.run/pt7rY" target="_blank" style="text-decoration: none;">
