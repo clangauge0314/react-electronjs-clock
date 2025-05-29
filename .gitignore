@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Build outputs (React, Electron)
+build/
+dist/
+out/
+
+# Cache, logs
+*.log
+*.tsbuildinfo
+npm-debug.log*
+
+# Environment files
+.env
+.env.*.local
+
+# Electron packaging
+release/
+*.exe
+*.dmg
+*.AppImage
+*.snap
+*.deb
+*.rpm
+*.msi
+
+# macOS, Windows
+.DS_Store
+Thumbs.db
+
+# VSCode config (optional)
+.vscode/
+
+# Coverage
+coverage/
+
+# React app output (if using create-react-app in subfolder)
+react-app/build/
+
+# Custom dev server outputs (if concurrently creates temp files)
+tmp/
+.temp/

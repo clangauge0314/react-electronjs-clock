@@ -1,0 +1,17 @@
+{
+  "name": "electronjs-chat",
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:react\" \"npm run dev:electron\"",
+    "dev:react": "cd frontend && npm run dev",
+    "dev:electron": "cd electron && npm start",
+    "build": "cd frontend && npm run build",
+    "start": "npm run build && npm run electron",
+    "electron": "cd electron && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

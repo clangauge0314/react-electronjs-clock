@@ -1,0 +1,37 @@
+{
+  "name": "goodclock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build"
+
+  },
+  "description": "GoodClock Desktop Application",
+  "devDependencies": {
+    "electron": "^34.0.2",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.goodclock.app",
+    "productName": "GoodClock",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable"
+        }
+      ],
+      "icon": "assets/clock.png"
+    }
+  }
+}
